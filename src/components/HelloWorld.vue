@@ -4,6 +4,10 @@
     <h2>뷰 배포 연습</h2>
     <!-- <h2>{{ msg }}</h2> -->
     <h2>왜 git push -f origin master 되지 않는 것일까</h2>
+    <span>git push -u origin master</span>
+    <span>git bash -> $ rm -f ./.git/index.lock</span>
+    <span>git commit -am "second commit"</span>
+    <span>git push -f origin master</span>
   </div>
 </template>
 
