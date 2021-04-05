@@ -8,6 +8,12 @@
     <span>git bash -> $ rm -f ./.git/index.lock</span>
     <span>git commit -am "second commit"</span>
     <span>git push -f origin master</span>
+    <span>git commit -am "third commit"</span>
+    <span>git push -f origin master</span>
+    <router-view to="/"></router-view>
+    <router-view to="/menua">AA</router-view>
+    <router-view to="/menub">BB</router-view>
+    <router-view></router-view>
   </div>
 </template>
 
