@@ -1,7 +1,7 @@
  /*eslint-disable*/
 import { createApp } from 'vue';
 import App from './App.vue';
-import { router } from './rotues/index.js';
+import { router } from './routes/index.js';
 
 const app = createApp(App);
 
