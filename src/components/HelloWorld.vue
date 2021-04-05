@@ -4,13 +4,15 @@
     <h2>뷰 배포 연습</h2>
     <!-- <h2>{{ msg }}</h2> -->
     <h2>왜 git push -f origin master 되지 않는 것일까</h2>
-    <span>git push -u origin master</span>
-    <span>git bash -> $ rm -f ./.git/index.lock</span>
-    <span>git commit -am "second commit"</span>
+    <span>git add .  All</span><br/>
+    <span>git add src/routes (filename)  All</span><br/>
+    <span>git push -u origin master</span><br/>
+    <span>git bash -> $ rm -f ./.git/index.lock</span><br/>
+    <span>git commit -am "second commit"</span><br/>
+    <span>git push -f origin master</span><br/>
+    <span>git commit -am "third commit"</span><br/>
     <span>git push -f origin master</span>
-    <span>git commit -am "third commit"</span>
-    <span>git push -f origin master</span>
-    <br/>
+    <br/><br/>
     <!-- <router-link to="/"></router-link> -->
     <router-link to="/menua">AA</router-link>
     <router-link to="/menub">BB</router-link>
