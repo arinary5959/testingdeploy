@@ -10,9 +10,9 @@
     <span>git push -f origin master</span>
     <span>git commit -am "third commit"</span>
     <span>git push -f origin master</span>
-    <router-view to="/"></router-view>
-    <router-view to="/menua">AA</router-view>
-    <router-view to="/menub">BB</router-view>
+    <router-link to="/"></router-link>
+    <router-link to="/menua">AA</router-link>
+    <router-link to="/menub">BB</router-link>
     <router-view></router-view>
   </div>
 </template>
